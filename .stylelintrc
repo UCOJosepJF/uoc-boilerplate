@@ -1,0 +1,26 @@
+{
+  "extends": ["stylelint-config-recommended-scss", "stylelint-config-recess-order"],
+  "rules": {
+    "selector-type-no-unknown": [true, {
+      "ignore": ["custom-elements"]
+    }],
+    "selector-type-case": "lower",
+    "indentation": 2,
+    "string-quotes": "double",
+    "selector-list-comma-newline-after": "always-multi-line",
+    "selector-list-comma-newline-before": "never-multi-line",
+    "selector-list-comma-space-after": "always-single-line",
+    "selector-list-comma-space-before": "never-single-line",
+    "block-opening-brace-space-before": "always",
+    "block-closing-brace-newline-after": "always",
+    "declaration-colon-space-after": "always-single-line",
+    "declaration-block-trailing-semicolon": "always",
+    "value-list-comma-space-after": "always-single-line",
+    "color-hex-case": "lower",
+    "color-hex-length": "short",
+    "length-zero-no-unit": true,
+    "at-rule-no-unknown": [true, {
+      "ignoreAtRules": ["extend", "mixin", "include", "use", "function", "return"]
+    }]
+  }
+}
