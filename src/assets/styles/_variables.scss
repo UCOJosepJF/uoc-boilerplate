@@ -1,11 +1,11 @@
 @use "sass:color";
 
+@function darken-color($color, $amount) {
+  @return darken($color, $amount);
+}
+
 $font-family-sans-serif: "Montserrat", sans-serif;
 $font-family-serif: "Montserrat", sans-serif;
 
 $pec1-corporate: #3464ae;
-$pec1-background: darken-color(#fff, 20);
-
-@function darken-color($color, $amount) {
-  @return darken($color, $amount);
-}
+$pec1-background: darken-color(#fff, 1);

@@ -14,7 +14,7 @@ h1 {
 
 h2 {
   margin-bottom: 1.5rem;
-  font-size: rem(40);
+  font-size: 2.5rem;
   font-weight: 700;
   line-height: 1.2;
   color: $pec1-corporate;
@@ -101,13 +101,6 @@ header {
           float: left;
         }
       }
-
-      #active {
-        padding-bottom: 2px;
-        font-weight: 900;
-        border-bottom: 1px;
-        border-bottom-style: dashed;
-      }
     }
   }
 }
@@ -118,9 +111,4 @@ footer {
   color: white;
   text-align: center;
   background-color: $pec1-corporate;
-}
-
-@function rem($pixels) {
-  $rem-size: 16px;
-  @return ($pixels / $rem-size) * 1rem;
 }
